@@ -2,7 +2,6 @@ from selenium.webdriver import Chrome, ChromeOptions, Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 
-
 def test_auth():
     url = "https://360.yandex.ru/disk/"
     browser_options = ChromeOptions()
